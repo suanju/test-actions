@@ -6,9 +6,6 @@ jobs:
     steps:  
       - uses: actions/checkout@v2
   ·    - name: 安装依赖并且打包
-        run:
-          npm install
-          npm run build
+        run: npm install && npm run build
       - name: 查看结果
-        run:
-          ls -lh dist
+        run: ls

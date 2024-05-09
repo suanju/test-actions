@@ -10,5 +10,5 @@ jobs:
       - name: 更新到GithubPages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: show
+          branch: go-pages
           folder: dist
